@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tarjeta {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 245px;
+}
+
+.fondo{
+    background: linear-gradient(to right,#ff3867 ,#ffc873,#d37ec6);
+}
+
+.avatar img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.avatar{
+    position: absolute;
+    top: 100px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lisa{
+    width:100%;
+    height: 170px;
+    border-bottom: 5px solid black;
+}
