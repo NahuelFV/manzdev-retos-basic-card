@@ -72,7 +72,7 @@ button:hover{
     border: white;
 }
 
-a:hover{
+button a:hover{
     color: white;
 }
 
@@ -109,13 +109,22 @@ h6{
     bottom: 105px;
 }
 
-.ubicacion span{
+.ubicacion span , a{
     color: #B8667E;
+    text-decoration: none;
+}
+
+.ubicacion span, a:hover{
+    color: black;
 }
 
 .resaltado a{
     text-decoration: none;
     color: black;
+}
+
+.resaltado a:hover{
+    text-decoration: underline;
 }
 
 .creador a{
