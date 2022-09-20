@@ -127,7 +127,8 @@ h6{
 }
 
 .creador a:hover{
-    color: black;
+    color: #B8667E;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 401px ){
