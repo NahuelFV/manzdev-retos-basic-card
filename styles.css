@@ -118,6 +118,6 @@ h6{
 
 @media screen and (max-width: 360px ){
     .tarjeta{
-        width: 100%;
+        width: 100% !important;
     }
 }
