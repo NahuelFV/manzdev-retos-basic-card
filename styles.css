@@ -122,6 +122,6 @@ h6{
         height: 700px !important;
     }
     .todo{
-        bottom: 88px;
+        bottom: 88px !important;
     }
 }
