@@ -134,12 +134,15 @@ h6{
 @media screen and (max-width: 401px ){
     .tarjeta{
         width: 100% !important;
-        height: 710px !important;
+        height: 705px !important;
     }
     .todo{
         bottom: 88px !important;
     }
     .lisa{
         border-radius: 15px 15px 0px 0px;
+    }
+    .creador a{
+        margin-top: 2px;
     }
 }
