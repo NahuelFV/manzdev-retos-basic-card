@@ -6,7 +6,7 @@
 
 .tarjeta {
     width: 500px;
-    height: 665px;
+    height: 670px;
     background-color: white;
     margin-left: auto;
     margin-right: auto;;
@@ -92,6 +92,7 @@ a:hover{
     width: 100%;
     border-top: #B8667E 1px solid;
     margin: 0%;
+    height: 80px;
 }
 
 .medio{
@@ -122,7 +123,7 @@ h6{
     display: flex;
     justify-content: center;
     text-decoration: none;
-    margin-top: 4px;
+
 }
 
 .creador a:hover{
@@ -132,7 +133,7 @@ h6{
 @media screen and (max-width: 401px ){
     .tarjeta{
         width: 100% !important;
-        height: 700px !important;
+        height: 710px !important;
     }
     .todo{
         bottom: 88px !important;
