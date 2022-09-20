@@ -34,7 +34,7 @@ main{
 .lisa{
     width:100%;
     border-radius: 2% 2% 0% 0%;
-    border-bottom: red solid 5px;
+    border-bottom: #B8667E solid 5px;
 }
 
 .contenido{
@@ -53,19 +53,45 @@ button{
     border-radius: calc( 20px);
     width: 120px;
     height: 4em;
+    border: #B8667E 2px solid;
 }
 
 button a{
     text-decoration: none;
     font-size: 1rem;
+    color: #B8667E;
+}
+
+button:hover{
+    border: white;
+}
+
+a:hover{
+    color: #B8667E;
 }
 
 .footer{
     display: flex;
     justify-content: space-evenly;
+    font-size: 1.5em;
 }
 
 .avatar{
     text-align: center;
 }
 
+.footer div{
+    text-align: center;
+    width: 100%;
+    border-top: #B8667E 1px solid;
+    margin: 0%;
+}
+
+.medio{
+    border-left: #B8667E 1px solid;
+    border-right: #B8667E 1px solid;
+}
+
+h6{
+    margin-top: 10px;
+}
