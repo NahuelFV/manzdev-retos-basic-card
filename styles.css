@@ -118,18 +118,9 @@ h6{
 
 @media screen and (max-width: 360px ){
     .tarjeta{
-        width: 55vh;
-        height: 690px;
-        margin: 0;
-        box-shadow: none;
+        width: 100%;
     }
     .todo{
         width: 100%;
-    }
-    main{
-        flex-direction: row;
-        display: flex;
-        width: 83vw;
-        height: 100%;
     }
 }
