@@ -110,3 +110,8 @@ h6{
 .ubicacion span{
     color: #B8667E;
 }
+
+.resaltado a{
+    text-decoration: none;
+    color: black;
+}
