@@ -6,6 +6,7 @@
 
 .tarjeta {
     width: 450px;
+    height: 670px;
     background-color: white;
     margin-left: auto;
     margin-right: auto;;
@@ -29,6 +30,7 @@ main{
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
+    border: #B8667E solid 5px;
 }
 
 .lisa{
@@ -94,4 +96,9 @@ a:hover{
 
 h6{
     margin-top: 10px;
+}
+
+.todo{
+    position: relative;
+    bottom: 124px;
 }
