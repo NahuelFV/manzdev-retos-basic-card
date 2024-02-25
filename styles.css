@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tarjeta {
+    width: 500px;
+    height: 680px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;;
+    border-radius: 4%;
+    box-shadow: 19px 15px 20px 0px rgba(0, 0, 0, 0.692);
+}
+
+.fondo{
+    background: no-repeat linear-gradient(to right,#ff3867 ,#ffc873,#d37ec6);
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avatar img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: #B8667E solid;
+}
+
+.lisa{
+    width:100%;
+    border-radius: 22px 22px 0px 0px;
+    border-bottom: #B8667E solid;
+    margin: 0;
+}
+
+.banner{
+    margin: 0;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contenido h1, div ,p{
+    margin-bottom: 15px;
+}
+
+button{
+    border-radius: calc( 20px);
+    width: 120px;
+    height: 4em;
+    border: #B8667E 2px solid;
+}
+
+button a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #B8667E;
+}
+
+button:hover{
+    border: white;
+}
+
+button a:hover{
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+.avatar{
+    text-align: center;
+}
+
+.footer div{
+    text-align: center;
+    width: 100%;
+    border-top: #B8667E 1px solid;
+    margin: 0%;
+    height: 80px;
+}
+
+.medio{
+    border-left: #B8667E 1px solid;
+    border-right: #B8667E 1px solid;
+}
+
+h6{
+    margin-top: 10px;
+}
+
+.todo{
+    position: relative;
+    bottom: 105px;
+}
+
+.ubicacion span , a{
+    color: #B8667E;
+    text-decoration: none;
+}
+
+.ubicacion span, a:hover{
+    color: black;
+}
+
+.resaltado a{
+    text-decoration: none;
+    color: black;
+}
+
+.resaltado a:hover{
+    text-decoration: underline;
+}
+
+.creador a{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.creador a:hover{
+    color: #B8667E;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 425px ){
+    .tarjeta{
+        width: 99%;
+        height: 705px;
+    }
+    .todo{
+        bottom: 88px !important;
+    }
+    .lisa{
+        border-radius: 15px 15px 0px 0px;
+    }
+    .creador a{
+        margin-top: 2px;
+    }
+}
